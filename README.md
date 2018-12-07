@@ -1,5 +1,13 @@
 # Instalar esta aplicación
 
+mkvirtualenv django-graphql --python=/usr/bin/python3
+
+pip install -r requeriments.txt
+
+python manage.py makemigrations movies
+python manage.py migrate
+
+python manage.py runserver
 
 # Hacerla paso a paso
 
