@@ -18,6 +18,7 @@ mkvirtualenv django-graphql --python=/usr/bin/python3
 
 pip install django
 pip install graphene_django
+pip install django-filter
 
 django-admin startproject DjangoGraphql
 
